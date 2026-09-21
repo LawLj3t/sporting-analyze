@@ -1,0 +1,16 @@
+# Temporary artifacts and images
+.factory/
+*-crops/
+ocr-crops/
+ocr-detail/
+ticket-crops/
+ticket-crops-scaled/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.webp
+
+# Dumps and temp text
+*_ascii.txt
+ticket_summary.txt
