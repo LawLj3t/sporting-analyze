@@ -39,6 +39,18 @@ Workspace này được thiết lập dành riêng cho việc **Phân tích dữ
   * **Tuyệt đối không được cố nhét bất kỳ kèo nào vào để chiều lòng người dùng**. Bảo toàn vốn luôn là ưu tiên số một.
   * Nếu người dùng muốn xem giải trí, chỉ gợi ý cửa cược đơn (Single Bet) nhỏ lẻ bên ngoài, kiên quyết cấm ghép vào vé xiên chính.
 
+### 🎾 QUY TẮC ĐẶC THÙ CHO MÔN TENNIS (Tennis Base-Rate & Anti-Over-Set Bias)
+- **Thực tế toán học (Base Rate) ATP Best-of-3**:
+  * Khoảng **66% – 70%** số trận đấu thể thức 3 set kết thúc với tỷ số **2-0 hoặc 0-2 (Straight Sets)**.
+  * Chỉ có khoảng **30% – 34%** số trận thực sự kéo sang Set 3 (Tài 2.5 Set).
+- **CHỐNG THIÊN LỆCH "NHỒI CỬA DƯỚI +1.5 SET" TRONG VÉ XIÊN**:
+  * Khi chọn cửa dưới `+1.5 Set`, cược đó **bắt buộc trận đấu phải có Set 3 (hoặc cửa dưới ăn trắng 2-0)**. Nếu cửa trên vào phom và thắng 2-0 bình thường (6-4 6-4, 7-6 6-3), cửa `+1.5 Set` sẽ gãy ngay lập tức.
+  * Tuyệt đối không nhồi một loạt kèo `Cửa dưới +1.5 Set` vào cùng một vé xiên vì xác suất nhân dồn của việc nhiều trận cùng nổ Set 3 là cực thấp ($< 5\%$).
+- **Chiến lược chọn kèo Tennis chuẩn mực cho Cược Xiên**:
+  * **Ưu tiên Kèo Xỉu 2.5 Set**: Đi thuận theo dòng chảy tự nhiên của tennis khi cả hai tay vợt đều có thói quen tốc chiến tốc thắng 2-0.
+  * **Kèo Chấp Game có đệm rộng (+3.0 / +3.5 Game)**: Chỉ chọn khi kịch bản cửa trên thắng 2-0 sát nút (7-6 6-4 hoặc 7-6 7-6) thì cửa dưới **vẫn thắng trọn tiền mà KHÔNG cần trận đấu kéo sang Set 3**.
+  * **Chủ động SKIP các trận 50/50**: Nếu hai bên cân bằng (odds 1.80 vs 1.95, phong độ khó lường), **kiên quyết SKIP BỎ QUA KHỎI XIÊN**, tuyệt đối không cố ép kèo `+1.5 Set` để tìm kiếm cảm giác an toàn giả tạo.
+
 ---
 
 ## 2. Quy trình xử lý khi người dùng gửi ảnh bảng kèo hoặc trận đấu
